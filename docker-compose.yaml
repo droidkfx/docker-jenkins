@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   jenkins:
-    build: .
+    image: droidkfx94/docker-jenkins
     ports:
     - target: 8080
       published: 8080
